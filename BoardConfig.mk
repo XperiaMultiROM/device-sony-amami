@@ -17,5 +17,7 @@ include device/sony/rhine/PlatformConfig.mk
 TARGET_BOOTLOADER_BOARD_NAME := D5503
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=amami
-BOARD_KERNEL_CMDLINE += mem=1767M
+
+# Multirom
+MR_DEVICE_VARIANTS := amami
 
